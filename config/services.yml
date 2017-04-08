@@ -1,0 +1,16 @@
+parameters:
+  grammar.content.directory: "/app/content/"
+
+services:
+  grammar.content.topic:
+    class: AppBundle\Services\Content\Topic
+
+  grammar.content.filelocator:
+    class: Symfony\Component\Config\FileLocator
+    arguments: ['%grammar.content.directory%']
+
+  grammar.content.topic.loader:
+    class: AppBundle\Services\Content\Loader
+    arguments: ['@grammar.content.topic', '@grammar.content.filelocator']
+
+

@@ -1,0 +1,52 @@
+content:
+  topic: The present simple
+
+  subtopic:
+    name: All about the present simple.
+    description: >
+      These are the 4 different uses for
+      the present simple tense in English.
+
+  grammar:
+    - name: Present action or state
+      usages:
+        - usage: To express an action or state occurring in the present.
+          examples:
+          - They speak Spanish.
+          - The clock's fast.
+          - The daffodils are in flower.
+
+    - name: Habits and repetition.
+      usages:
+        - usage: To express a habit or something done regularly (that is still true).
+          examples:
+          - I get up at about 7.
+          - He washes his car at the weekend.
+
+        - usage: Add an adverb of frequency to emphasise how often something is done.
+          examples:
+          - I never get up before 7.
+          - He always washes his car at the weekend.
+
+        - usage: A good example of a habitual action is someone's job or occupation.
+          examples:
+          - I'm a shopkeeper.
+          - He works as a teacher.
+          - What do they do? They're shop assistants.
+
+    - name: Facts.
+      usages:
+        - usage: To express facts that don't vary with time and eternal truths.
+          examples:
+          - The Earth orbits the sun.
+          - In England you drive on the left.
+          - Does sugar taste sweet? Yes, it does.
+          - Time is money.
+
+    - name: Future certainty.
+      usages:
+        - usage: Use the present simple for future events considered to be certain, especially when dealing with timetables.
+          examples:
+          - When does the train arrive? At 07:23 and it leaves at 07:26.
+          - The shops are open from 8 till 2 and again from 4 till 8.
+          - I've got a meeting tomorrow with my accountant.

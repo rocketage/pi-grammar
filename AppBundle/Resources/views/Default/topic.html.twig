@@ -1,0 +1,30 @@
+{% extends "AppBundle:Default:index.html.twig" %}
+
+{% block body %}
+
+    <h2>{{ topic }}</h2>
+
+    <h3>{{ subtopic.name }}</h3>
+    <p>{{ subtopic.description }}</p>
+
+    <ul>
+    {% for item in grammar %}
+        <li>
+            <p>{{ item.name }}</p>
+            <ul>
+                {% for usage in item.usages %}
+                    <li>
+                        <p>{{ usage.usage }}</p>
+                        <ul>
+                            {% for example in usage.examples %}
+                                <li>{{ example }}</li>
+                            {% endfor %}
+                        </ul>
+                    </li>
+                {% endfor %}
+            </ul>
+        </li>
+    {% endfor %}
+    </ul>
+
+{%  endblock %}

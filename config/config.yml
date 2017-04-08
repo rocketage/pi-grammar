@@ -1,0 +1,9 @@
+imports:
+    - { resource: parameters.yml }
+    - { resource: services.yml }
+
+framework:
+    secret: %kernel.secret%
+    assets: ~
+    templating:
+        engines: ['twig']

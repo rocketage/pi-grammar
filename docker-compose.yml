@@ -1,0 +1,12 @@
+version: '2'
+services:
+  web:
+    build:
+      context: .
+    expose:
+      - 80
+      - 443
+    environment:
+      DNSDOCK_ALIAS: pi.docker
+    volumes:
+      - ./:/app
